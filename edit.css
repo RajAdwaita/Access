@@ -1,3 +1,93 @@
-.class{
+body{
+    background-color: black;
     
+}
+.h1{
+    color: blue;
+}
+.s1{
+    /* color: rgb(16, 199, 86); */
+    
+}
+.d2{
+    position: relative;
+}
+
+.s1 i1 {
+    width: 100%;
+    
+
+}
+.d1{
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    font-weight: 665px;
+    font-size: 65px;
+    text-align: center;
+    color: rgb(221, 217, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 18px   ;
+    
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  /* Change the color of links on hover */
+.topnav a:hover {
+    color: rgb(190, 14, 14);
+}
+
+  /* Add a color to the active/current link */
+.topnav a {
+    background-color: #040804;
+    color: rgb(40, 173, 167);
+}
+
+.p21{
+    float: right;
+    margin-right: 105px;
+    outline: none;
+    border: none;
+}
+
+.p21 .btn1:hover{
+    color: rgb(190, 14, 14);
+    cursor: pointer;
+}
+.btn1{
+    background-color: rgb(4, 32, 58);
+  width: 290px;
+  height: 40px;
+  font-size: 20px;
+  color: rgb(40, 173, 167);
+  border: #4542e7;
+  border-radius: 25px;
+  display: flexbook;
+  outline: none;
+}
+.para1{
+    font-size: 22px;
+    color: #dae90a;
+    line-height: 80px;
+    text-shadow: #f2f2f2 1px 1px ;
+}
+.p11{
+    position: absolute;
+    align-items: center;
+    margin-left: 35px;
 }
