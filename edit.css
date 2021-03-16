@@ -1,9 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body{
     background-color: black;
     
 }
+html{
+    /* scroll-behavior: smooth; */
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
 .h1{
     color: blue;
+}
+
+.s2{
+    
 }
 .s1{
     /* color: rgb(16, 199, 86); */
@@ -13,7 +27,7 @@ body{
     position: relative;
 }
 
-.s1 i1 {
+.s1 .i1 {
     width: 100%;
     
 
@@ -33,6 +47,7 @@ body{
 .topnav {
     background-color: black;
     overflow: hidden;
+    /* position: fixed; */
 }
 
   /* Style the links inside the navigation bar */
@@ -71,23 +86,39 @@ body{
 }
 .btn1{
     background-color: rgb(4, 32, 58);
-  width: 290px;
-  height: 40px;
-  font-size: 20px;
-  color: rgb(40, 173, 167);
-  border: #4542e7;
-  border-radius: 25px;
-  display: flexbook;
-  outline: none;
+    width: 290px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(40, 173, 167);
+    border: #4542e7;
+    border-radius: 25px;
+    display: flexbook;
+    outline: none;
 }
 .para1{
     font-size: 22px;
     color: #dae90a;
-    line-height: 80px;
+    line-height: 55px;
     text-shadow: #f2f2f2 1px 1px ;
 }
 .p11{
     position: absolute;
     align-items: center;
-    margin-left: 35px;
+    margin-left: 95px;
+}
+.page2{
+    width: 100%;
+}
+.s5{
+    color: #f2f2f2;
+    font-size: large;
+    position: relative;
+    margin-top: 500px;
+    align-items: center;
+    align-content: center;
+    /* display:flexbox */
+}
+
+#hh1{
+    text-align: center;
 }
